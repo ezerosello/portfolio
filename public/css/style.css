@@ -223,6 +223,7 @@ main {
 }
 
 embed {
+    display: none;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -438,7 +439,14 @@ footer .fa-linkedin {
         border-radius: 5px;
         padding: 0 10px;
         margin: 15px;
+    }
 
+    embed {
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 35vw;
     }
 
    /* FOOTER */
