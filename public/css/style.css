@@ -207,11 +207,11 @@ main {
 }
 
 .project-python {
-    background-color: #1f7821;
+    background-color: #22aa51;
 }
 
-.project-python p {
-    color: var(--colors-blanco);
+.project-python p, h2 {
+    color: var(--colors-gris);
 }
 
 .project-js {
