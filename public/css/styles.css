@@ -21,12 +21,23 @@ body {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     font-size: 12px;
     line-height: 20px;
     width: 100%;
     background-color: var(--colors-azul);
     padding: 5px 20px;
+}
+
+.cambiar-idioma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--colors-blanco);
+    font-size: 10px;
 }
 
 .ul-header {
