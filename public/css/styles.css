@@ -31,10 +31,14 @@ body {
     padding: 5px 20px;
 }
 
+.bandera-idioma {
+    width: 20px;
+    padding-right: 5px;
+}
+
 .cambiar-idioma {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: var(--colors-blanco);
     font-size: 10px;
@@ -251,6 +255,10 @@ footer .fa-linkedin {
 
     .cambiar-idioma {
         font-size: 15px;
+    }
+
+    .bandera-idioma {
+        width: 25px;
     }
 
     /* MAIN */
