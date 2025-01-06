@@ -246,6 +246,13 @@ footer .fa-linkedin {
 }
 
 @media (min-width: 995px) {
+
+    /* HEADER */
+
+    .cambiar-idioma {
+        font-size: 15px;
+    }
+
     /* MAIN */
 
     .section-main-info {
